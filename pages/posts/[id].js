@@ -24,7 +24,7 @@ export default function PostPage({ post, globalData }) {
           )}
         </header>
         <main>
-          <article className="prose dark:prose-dark">{post.body} Teste</article>
+          <article className="prose dark:prose-dark">{post.body}</article>
         </main>
       </article>
       <Footer copyrightText={globalData.footerText} />
